@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1602" height="219" viewBox="0 0 1602 219">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_311829" data-name="Rectángulo 311829" width="1602" height="219" transform="translate(-2 70)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_311828" data-name="Rectángulo 311828" width="1627" height="625.419" rx="20" fill="#faebcd"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_878406" data-name="Enmascarar grupo 878406" transform="translate(2 -70)" clip-path="url(#clip-path)">
+    <g id="Grupo_1009728" data-name="Grupo 1009728" transform="translate(-140.333 -327)">
+      <path id="Trazado_678346" data-name="Trazado 678346" d="M22.186,0H1604.813A22.186,22.186,0,0,1,1627,22.186V602.729a22.186,22.186,0,0,1-22.186,22.186H22.186A22.186,22.186,0,0,1,0,602.729V22.186A22.186,22.186,0,0,1,22.186,0Z" transform="translate(140.333 70)" fill="#faebcd"/>
+      <g id="Grupo_1009727" data-name="Grupo 1009727" transform="translate(140.333 70.152)">
+        <g id="Grupo_1009726" data-name="Grupo 1009726">
+          <g id="Grupo_1009725" data-name="Grupo 1009725" clip-path="url(#clip-path-2)">
+            <g id="Grupo_1009724" data-name="Grupo 1009724" transform="translate(1129.854 724.738) rotate(-90)" opacity="0.372">
+              <path id="Trazado_678347" data-name="Trazado 678347" d="M773.844,96.92C606.916-18.752,463.4-43.894,463.4,93.435c0,194.405-43.292,186.781-259.752,45.741C97.406,69.953,35.509,162.959,0,275.606V509.464H773.844Z" transform="translate(0 0)" fill="#f0bd51" fill-rule="evenodd"/>
+            </g>
+            <path id="Elipse_7706" data-name="Elipse 7706" d="M453.992,135.583c-175.909,0-319.021,143.762-319.021,320.47s143.112,320.47,319.021,320.47S773.013,632.76,773.013,456.053,629.9,135.583,453.992,135.583M453.992,0C704.724,0,907.983,204.182,907.983,456.053S704.724,912.106,453.992,912.106,0,707.924,0,456.053,203.259,0,453.992,0Z" transform="translate(1061.784 -445.111)" fill="#f0bd51"/>
+            <path id="Elipse_7706-2" data-name="Elipse 7706" d="M271.3,81.024c-105.122,0-190.645,85.911-190.645,191.51S166.18,464.044,271.3,464.044s190.645-85.911,190.645-191.51S376.424,81.024,271.3,81.024M271.3,0C421.138,0,542.6,122.018,542.6,272.534S421.138,545.068,271.3,545.068,0,423.05,0,272.534,121.466,0,271.3,0Z" transform="translate(-350.632 466.994)" fill="#f0bd51"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

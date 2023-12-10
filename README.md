@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **La cadena de suministros y la planificación de la producción**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF11_223306_GESTION_SOSTENIBLE_PROCESOS_PRODUCTIVOS_BIENES_SERVICIOS_V2/](https://ecored-sena.github.io/CF11_223306_GESTION_SOSTENIBLE_PROCESOS_PRODUCTIVOS_BIENES_SERVICIOS_V2/)
 
 #
 
