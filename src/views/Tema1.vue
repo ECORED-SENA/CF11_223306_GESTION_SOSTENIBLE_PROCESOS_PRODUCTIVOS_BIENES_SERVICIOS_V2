@@ -25,7 +25,7 @@
           img(src='@/assets/curso/tema1/img1.svg', style="width: auto" ,alt='').m-auto
     Separador
     #t_1_1
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2 1.1 Componentes de la cadena de suministros
     .row.bg-c2.align-items-center.mb-5.p-4.p-lg-0
       .col-md-auto
@@ -192,7 +192,7 @@
                   i.fas.fa-file-download
     Separador
     #t_1_2
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2 1.2 Técnicas de aplicación de la cadena de suministros
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
@@ -342,7 +342,7 @@
         p.text-center Se deben diagnosticar todas las alternativas para que esta implementación sea la óptima y permita el posicionamiento de la empresa frente a la competencia.
     Separador
     #t_1_3
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2 1.3 Selección y compra de insumos
     .row.bg-c2.align-items-center.mb-5.p-4.p-lg-0
       .col-md-auto
@@ -644,7 +644,491 @@
           .row(numero="4" titulo="Transferencia del riesgo")
             .col-12
               p Sucede cuando el riesgo se transmite a otra área de la organización o a alguna empresa para que sea resuelto y manejado.
-      
+    Separador
+    #t_1_4
+    .titulo-segundo.color-acento-contenido
+      h2 1.4 Control de inventarios
+    .row.bg-c2.align-items-center.mb-5.p-4.p-lg-0
+      .col-md-auto
+        figure
+          img(src='@/assets/curso/tema1/img55.svg', style="width: auto" ,alt='').m-auto
+      .col
+        p.mb-0 Propiciar juicios para calificar de manera acertada los materiales que deben usarse para determinada producción, relaciona criterios a instaurar en el cumplimiento de este procedimiento. A continuación se hace una descripción detallada de los criterios que se deben tener en cuenta en el momento de realizar el proceso de inventarios.
+    .row.mb-4
+      .col-auto
+        h3.txt-c1.mb-0 #[b Criterios para el control de inventarios]
+    p.mb-5 A continuación se hace una descripción detallada de los criterios que se deben tener en cuenta en el momento de realizar el proceso de inventarios.
+    .row.justify-content-center
+      .col-8.col-md-5.col-lg.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img56.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Estudio de mercado]
+              p.text-center Reconocimiento de las marcas que están presentes en el medio relacionadas con el proceso de producción organizacional.
+      .col-8.col-md-5.col-lg.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img57.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Denominación]
+              p.text-center Identificación y concepto adecuado de las denominaciones del insumo que se requiere.
+      .col-8.col-md-5.col-lg.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img58.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Ficha técnica]
+              p.text-center Condiciona el cumplimiento de las características de la materia prima a la disposición por parte del proveedor de una ficha técnica completa.
+      .col-8.col-md-5.col-lg.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img59.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Sostenibilidad]
+              p.text-center Especificación completa e integrar a la ficha técnica sobre el uso sostenible de los artículos que me suministran.
+    .row.justify-content-center.mb-5
+      .col-8.col-md-5.col-lg-3.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img60.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Características]
+              p.text-center Disposición completa de contextos sustentables y amigables, condiciones físicas o químicas del bien.
+      .col-8.col-md-5.col-lg-3.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img61.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Condiciones fisicoquímicas]
+              p.text-center Establecer las condiciones fisicoquímicas de los elementos empleados en el acabado y presentación del producto.
+      .col-8.col-md-5.col-lg-3.m-2
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img62.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-center #[b Empaque]
+              p.text-center Discriminación clara sobre el empaque y embalaje del bien o insumo, sus dimensiones y aclaración si son sujeto de inspecciones de calidad en su recepción.
+    p.mb-5 Por otro lado, para realizar dicho control es importante comenzar a dar respuesta a los siguientes interrogantes:
+    .row.mb-5
+      .col-lg.m-2
+        .row.bg-c11.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/tema1/img63.svg', style="width: auto" ,alt='').m-auto
+          .col
+            p.mb-0 #[b ¿Cuál es el entorno definido de este material?]
+      .col-lg.m-2
+        .row.bg-c11.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/tema1/img64.svg', style="width: auto" ,alt='').m-auto
+          .col
+            p.mb-0 #[b ¿Se pueden establecer paralelos entre productos de la misma naturaleza?]
+      .col-lg.m-2
+        .row.bg-c11.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/tema1/img65.svg', style="width: auto" ,alt='').m-auto
+          .col
+            p.mb-0 #[b ¿Qué características muestra este producto en relación con los otros de la misma casta?]
+    p.mb-5 Una vez reconocidos los productos, se aglomerarán según la variedad de datos relevantes, sorteando las trasposiciones, dobleces, y excesos en la diversidad de los materiales.
+    .row.bg-c4
+      .col-12
+        .p-5
+          .row.align-items-center
+            .col-lg-8.mb-4.mb-lg-0
+              p El control detallado del inventario, conceptualiza parámetros como:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | Procurar por la ordenación sistémica del stock, es decir, catalogar todas las existencias con base en parámetros preestablecidos.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | En correlación y de acuerdo a sus condiciones comunes de utilización, naturaleza y forma.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | Codificar a partir de la clasificación las tarjetas o listados de descripción.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | Examinar las particularidades significativas y seleccionar una para iniciar la clasificación y conformación de las clases, que contengan características similares.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | Los materiales de baja rotación se bajan a cero en los inventarios y solo se trabajan bajo pedido.
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema1/img66.svg', style="width: auto" ,alt='').m-auto
+    Separador
+    #t_1_5
+    .titulo-segundo.color-acento-contenido
+      h2 1.5 Almacenamiento y distribución
+    .row.bg-c2.align-items-center.mb-5.p-4.p-lg-0
+      .col-md-auto
+        figure
+          img(src='@/assets/curso/tema1/img67.svg', style="width: auto" ,alt='').m-auto
+      .col
+        p.mb-0 Logísticamente el uso discriminado en el almacenamiento de inventarios, emplea la asignación de diferentes símbolos, con el objeto de diferenciar los insumos por las condiciones que se le atribuyen. Al convenir el empleo de códigos personalizados, la codificación toma algunos de estos elementos:
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+      .row.align-items-center(titulo="Condiciones para generar códigos de productos")
+        .col-lg-9.mb-4.mb-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Identificar el número de elementos para codificar.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Codificar en tablas las equivalencias para dar ordenamiento alfabético o numérico y normalizar las condiciones del proceso.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Parametrizar y ordenar para comenzar la simbolización.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Establecer estrategias de codificación, requiere de una exploración completa de los materiales que haya que incluir en la simbolización.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Establecer convenciones claras y entendibles para evitar errores que se exteriorizan en la codificación.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Condicionar el sistema para que muestre el lugar de ubicación de los materiales.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Condicionar el sistema para que muestre espacios que queden libres al utilizar los materiales en almacenamiento.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseñar el sistema especializado para que pueda ser administrado por personas con condiciones técnicas y conocimientos adecuados.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseñar el sistema especializado para recepcionar y almacenar con facilidad los materiales y estimar tiempos de llegada con antelación.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseñar el sistema especializado para dimensionar geográficamente el área de almacenamiento.
+        .col-lg-3
+          figure
+            img(src='@/assets/curso/tema1/img68.svg', style="width: auto" ,alt='').m-auto
+      .row.align-items-center(titulo="Condiciones para generar códigos de productos")
+        .col-lg-9.mb-4.mb-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Establecer la demarcación de cada espacio, distribuirla en correlación con la cantidad, y con el producto, materiales e insumos que maneje la empresa.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Distribución equitativa y técnica del espacio para acomodo eficaz de anaqueles.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseños de espacios adecuados de circulación entre estantes.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseño de casilleros cómodos, para establecer el número de columnas e hileras que deben quedar.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | La separación entre los espacios de circulación cumplirá con la normatividad vigente.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | La planificación de los símbolos es esencial antes de comenzar a emplear codificación.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | La codificación dispondrá de normatividad interna y puede ser, por señales, numérica, alfanumérica o alfabética.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Los sistemas establecidos para códigos de ubicación se sugieren digitales.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Diseñar con eficiencia el manual de ubicación de los materiales.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Algunos modelos de códigos de ubicación, pueden ser:
+            li
+              ul
+                li 
+                  i.fas.fa-circle(style="color: #583CB6")
+                  | A-09-E05 = Bodega A, Estante 09, Casillero E05
+                li 
+                  i.fas.fa-circle(style="color: #583CB6")
+                  | 5-BD-F12 = Bodega 5, Estante BD, Casillero F12
+        .col-lg-3
+          figure
+            img(src='@/assets/curso/tema1/img69.svg', style="width: auto" ,alt='').m-auto
+      .row.align-items-center(titulo="Condiciones generales del sistema de codificación")
+        .col-lg-9.mb-4.mb-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Establecer normas para que los insumos puedan ser reconocidos ágilmente y sin equívocos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Caracterizar los insumos con equivalencia para poder ser identificados fácilmente.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Emplear lectores digitales.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Siempre que sea posible el código debe permitir la agrupación de los insumos por sus características comunes o tipos de usos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | La codificación siempre debe permitir identificar la localización del producto.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | La codificación de cada producto debe tener una secuencialidad lógica que sea clara para cualquier persona que realice la búsqueda.
+        .col-lg-3
+          figure
+            img(src='@/assets/curso/tema1/img70.svg', style="width: auto" ,alt='').m-auto
+    .row.mb-4
+      .col-auto
+        h3.txt-c1.mb-0 #[b Clasificación general de los inventarios]
+    p.mb-5 En el siguiente material se clasifica el proceso de inventarios especificando su proceso de manipulación:
+    .row.align-items-center
+      .col-lg-8.mb-4.mb-lg-0
+        LineaTiempoD.color-primario
+          .row(numero="1" titulo="Estructuras de inventario generales")
+            .col-lg-8.mb-4.mb-lg-0
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 #[b Estructura de inventario normal o activo]: insumos que se usan diariamente, cantidad permanente de unidades en estanterías.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Estructura de #[i stock] de seguridad o reserva.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Estructura de inventarios de protección, solucionan situaciones imprevistas.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Estructura de inventario sobrante o sobre #[i stock], insumos que dejan de emplearse.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Estructura de inventario de recuperación y readaptación para emplearse en otros productos.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 #[b Estructura inventario obsoleto]: Insumos de trabajo que carecen de posibilidades de uso.
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema1/img17.png', style="width: auto" ,alt='').m-auto
+          .row(numero="2" titulo="Por el movimiento de los inventarios")
+            .col-lg-8.mb-4.mb-lg-0
+              p Se clasifican en:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 #[b Sistema de inventario máximo]: punto de equilibrio de la máxima cantidad que se debe tener de cada material.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 #[b Sistema de inventario mínimo]: punto de reorden para mínimo de cada material, evita paros de proceso.
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema1/img18.png', style="width: auto" ,alt='').m-auto
+          .row(numero="3" titulo="Relación con el proceso productivo")
+            .col-lg-8.mb-4.mb-lg-0
+              p Se clasifican en:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Insumos esenciales para manufactura.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 #[i Stock] de materias primas relevantes para la construcción del producto.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Inventario de elementos o piezas semiterminados.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Inventario de insumos de uso permanente para el ensamble, elementos auxiliares o accesorios.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Elementos de primera mano, indispensables para la industria fabril.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Insumos de utillaje de entretenimiento o mantenimiento.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Elementos para el empaque y embalaje de los productos.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Excedentes de manufactura y del proceso productivo.
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema1/img19.png', style="width: auto" ,alt='').m-auto
+          .row(numero="4" titulo="Según la parte extractiva")
+            .col-lg-8.mb-4.mb-lg-0
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Identificar el lugar geográfico donde se obtienen los productos.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Sistemas de importación desde el exterior, sometidos a logísticas de abastecimiento internacional.
+                li.d-flex
+                  i.fas.fa-check(style="color: #583CB6")
+                  | 
+                  p.mb-0 Obtención desde otras regiones nacionales.
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema1/img20.png', style="width: auto" ,alt='').m-auto
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema1/img16.png', style="width: auto" ,alt='').m-auto
+    Separador
+    #t_1_6
+    .titulo-segundo.color-acento-contenido
+      h2 1.6 Canales de distribución del producto y/o servicio
+    .row.align-items-center.mb-5
+      .col-lg-8.mb-4.mb-lg-0
+        p Es el procedimiento que permite la provisión, movimiento y acopio del stock de insumos y productos semielaborados o terminados en el comercio nacional o internacional a partir del establecimiento de unas rutas definidas, las cuales pueden manejarse por vía aérea, férrea, acuática, o terrestre.
+        p Cada línea de abastecimiento está conformada por una serie de operadores logísticos o mediadores que permiten el transporte de los bienes de manufactura desde el centro de distribución de la compañía hasta los lugares de mercadeo especializados.
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Hay que tener en cuenta que el montaje de infraestructuras logísticas y de traslado permite el envío de mercancía de un lugar a otro, empleando una ruta de transporte, a partir de una normatividad, definida y empelando información documentada, lo que pone de manifiesto el conocimiento técnico y especifico de embarque marítimo o carta de porte terrestre, entre otros.
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema1/img21.png', style="width: auto" ,alt='').m-auto
+    p.mb-5 Las estructuras de transporte más comunes se exponen a continuación:
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+      .row.align-items-center.justify-content-center(titulo="Estructura de transporte combinado")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img22.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p Es el servicio de envío intermodal que permite el transporte de mercancías utilizando varios modos de traslado, utilizando un documento de envío combinado, origen - destino, con un sistema fraccionado de responsabilidad, pues a cada modo de transporte se le aplican las normas que lo regulen. Este sistema de contratación de la intermediación del traslado, se utiliza comúnmente, en el transporte internacional de mercancías y más continuamente cuando el recorrido principal es marítimo.
+      .row.align-items-center.justify-content-center(titulo="Estructura de transporte segmentado")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img23.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p Se soporta en el ejercicio de creación de múltiples contratos, cantidades presentes, como número de servicios de atención a la carga se requieran y el compromiso está en manos de cada uno de los contratistas. En caso de un adverso, el expedidor deberá identificar bajo la responsabilidad “de quién” se hallaba su mercadería en el instante de suceder este evento.
+      .row.align-items-center.justify-content-center(titulo="Sistema de transporte multimodal")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img24.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p Sistema estructurado de envíos de mercancías por dos o más formas distintas de traslado, comúnmente, en integridad de un único contrato de transporte Multimodal, desde un lugar en que el operador de transporte multimodal toma las mercancías bajo su custodia hasta otro lugar designado para su entrega.
+          p.mb-0 El operador de transporte multimodal es un profesional del traslado, comúnmente, una empresa naviera o transitaría, que brinda un servicio de envío puerta a puerta y emite un documento de transporte único, por lo común llamado "Conocimiento de Embarque FIATA" de la Federación Internacional de Transitorios, reconociendo ante el operador, tanto el estado de las mercancías, como de la correcta ejecución del transporte con un compromiso de resultado.
+      .row.align-items-center.justify-content-center(titulo="Estructura de transporte internacional")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img25.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p Este tipo de estructura la mayoría de veces está orientado a:
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Productos e insumos perecederos de fácil deterioro.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Estimación de la vida útil, por trazabilidad de humedad relativa.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Estado delicado o frágil de insumos o materias primas.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              |  Empaque, embalaje, sistemas de manejo, factor de fragilidad en el apilamiento.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Carga extremadamente peligrosa.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Límites establecidos para el embalaje, marcando áreas de seguridad.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Las limitaciones de dimensiones, pesos especiales.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Traslado de equipos de manejo, de transporte.
+      .row.align-items-center.justify-content-center(titulo="Estructura de transporte aéreo")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img26.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p Los fletes o costos son al menos 4 veces más costosos que el sistema marítimo y sólo se razona para el uso en cadenas con productos de elevado valor, o por la sentida necesidad de tiempo de envíos cortos, eventualidades o mercaderías perecederas.
+          p Algunas ventajas del transporte aéreo son:
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Disminución en el costo de embalaje.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Mayor velocidad de la entrega.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Variada cantidad de destinos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Sistemas de seguridad más robustos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Aumenta la puntualidad en la entrega.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Menor monto en gastos de carga y descarga.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | 
+              p.mb-0 Más ágil la renovación de #[i stock].
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Espacio físico por uso del factor de estiba sin restricciones.
+      .row.align-items-center.justify-content-center(titulo="Estructura de envío por transporte ferroviario")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img27.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p El sistema de transporte ferroviario en muchas regiones en desuso, presenta mejores expectativas y ventajas, con relación al envío por carretera o aéreo, cuando se trata de volúmenes muy grandes de carga. Los orígenes que posicionan al traslado ferroviario en superioridad competitiva en costos con relación a otros sistemas de transporte, son la disminución de la cantidad de agentes que interviene en la cadena, la disposición “universal” de transporte puerta a puerta, que reduce costes de organización y gestión de las cadenas, la reducción del número de manipulaciones.
+      .row.align-items-center.justify-content-center(titulo="Estructuras de transporte marítimo")
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img26.png', style="width: auto" ,alt='').m-auto
+        .col-lg-7
+          p En los traslados transoceánicos, el transporte marítimo no tiene competencia. El flete es el mayor componente de coste dentro de la cadena logística de exportación (alrededor del 70%), y sus variaciones vienen dadas por la oferta disponible de flota que existe, la capacidad de conseguir los retornos, las variaciones en la demanda. 
+          p Ventajas de transporte marítimo.
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Disminución en la cantidad de robos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Llegada de productos en mejores condiciones, la mercadería con menor manipulación.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Baja utilización de mano de obra en el transporte.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Bajan los costos de manipulación y almacenaje en puerto.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Disminución de costos de envases.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Bajan la implicación del trámite aduanero en transbordos.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Menor tiempo de estadía en buques en puerto.
+            li.d-flex
+              i.fas.fa-check(style="color: #583CB6")
+              | Mejora la rapidez de viaje, por menos tiempos en puerto.
+
 </template>
 
 <script>
