@@ -187,7 +187,7 @@
                 p.mb-1 #[b Ítems que han marcado la definición del concepto de cadena de suministros]
                 p.text-small En las décadas posteriores el concepto de cadena de suministros ha tomado más fuerza. En el siguiente anexo se identifican los principales ítems que han fortalecido su definición. 
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank")
                   span Ver documento
                   i.fas.fa-file-download
     Separador

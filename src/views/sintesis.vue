@@ -3,9 +3,9 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p Uno de los aspectos fundamentales en la producción de bienes y servicios es conocer en qué consiste la cadena de suministro y abastecimiento, pues estas determinan el conjunto de actividades y medios necesarios para el proceso de distribución y venta, este análisis va desde la compra de materias primas, su transformación y entrega.
+    p El objetivo de este espacio de formación es dar a conocer todos los elementos necesarios, que en cuanto a este tema, permiten la toma de decisiones en cada una de las fases que se desarrollan dentro de una organización, garantizando de cierta forma, que los procesos de producción y distribución sean realmente efectivos y eficaces.
+    p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

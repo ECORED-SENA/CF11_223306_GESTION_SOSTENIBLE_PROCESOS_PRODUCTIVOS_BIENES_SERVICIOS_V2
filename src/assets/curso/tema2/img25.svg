@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="383.107" height="196.15" viewBox="0 0 383.107 196.15">
+  <g id="Grupo_988389" data-name="Grupo 988389" transform="translate(-886.374 -4652.693)">
+    <g id="Grupo_988388" data-name="Grupo 988388" transform="translate(888.373 4652.693)">
+      <text id="_100" data-name="100" transform="translate(24 35.228)" fill="#757575" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-25.116" y="0">100</tspan></text>
+      <text id="_80" data-name="80" transform="translate(23.815 65.547)" fill="#757575" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-18.732" y="0">80</tspan></text>
+      <text id="_60" data-name="60" transform="translate(23.815 96.343)" fill="#757575" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-18.746" y="0">60</tspan></text>
+      <text id="_40" data-name="40" transform="translate(24.815 127.135)" fill="#757575" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-18.284" y="0">40</tspan></text>
+      <text id="_20" data-name="20" transform="translate(24.269 159.459)" fill="#757575" font-size="14" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-18.144" y="0">20</tspan></text>
+      <g id="Grupo_988387" data-name="Grupo 988387" transform="translate(38.27)">
+        <line id="Línea_805" data-name="Línea 805" x2="342.046" transform="translate(0 153.971)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+        <line id="Línea_806" data-name="Línea 806" x2="342.046" transform="translate(0 123.177)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+        <line id="Línea_807" data-name="Línea 807" x1="342.046" transform="translate(0 92.383)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+        <line id="Línea_808" data-name="Línea 808" x2="342.046" transform="translate(0 61.589)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+        <line id="Línea_809" data-name="Línea 809" x2="342.046" transform="translate(0.791 31.27)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+        <path id="Trazado_666122" data-name="Trazado 666122" d="M914.7,4652.692v184.767h342.046" transform="translate(-914.697 -4652.692)" fill="none" stroke="#ddd" stroke-miterlimit="10" stroke-width="0.988"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_311250" data-name="Rectángulo 311250" width="15.397" height="92.984" transform="translate(957.447 4744.474)" fill="#449c6e"/>
+    <rect id="Rectángulo_311251" data-name="Rectángulo 311251" width="15.397" height="124.172" transform="translate(972.845 4713.287)" fill="#285d42"/>
+    <rect id="Rectángulo_311252" data-name="Rectángulo 311252" width="15.397" height="76.648" transform="translate(1019.046 4760.81)" fill="#449c6e"/>
+    <rect id="Rectángulo_311253" data-name="Rectángulo 311253" width="15.397" height="92.984" transform="translate(1034.443 4744.474)" fill="#285d42"/>
+    <rect id="Rectángulo_311254" data-name="Rectángulo 311254" width="15.397" height="104.089" transform="translate(1080.644 4733.37)" fill="#449c6e"/>
+    <rect id="Rectángulo_311255" data-name="Rectángulo 311255" width="15.397" height="76.648" transform="translate(1096.041 4760.81)" fill="#285d42"/>
+    <rect id="Rectángulo_311256" data-name="Rectángulo 311256" width="15.397" height="60.615" transform="translate(1142.242 4776.843)" fill="#449c6e"/>
+    <rect id="Rectángulo_311257" data-name="Rectángulo 311257" width="15.397" height="144.25" transform="translate(1157.639 4693.208)" fill="#285d42"/>
+    <rect id="Rectángulo_311258" data-name="Rectángulo 311258" width="15.397" height="136.21" transform="translate(1203.841 4701.248)" fill="#449c6e"/>
+    <rect id="Rectángulo_311259" data-name="Rectángulo 311259" width="15.397" height="100.1" transform="translate(1219.238 4737.359)" fill="#285d42"/>
+    <text id="LOREM" transform="translate(968.761 4847.843)" fill="#363d57" font-size="5" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-9.185" y="0">LOREM</tspan></text>
+    <text id="LOREM-2" data-name="LOREM" transform="translate(1030.359 4847.843)" fill="#363d57" font-size="5" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-9.185" y="0">LOREM</tspan></text>
+    <text id="LOREM-3" data-name="LOREM" transform="translate(1091.958 4847.843)" fill="#363d57" font-size="5" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-9.185" y="0">LOREM</tspan></text>
+    <text id="LOREM-4" data-name="LOREM" transform="translate(1153.556 4847.843)" fill="#363d57" font-size="5" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-9.185" y="0">LOREM</tspan></text>
+    <text id="LOREM-5" data-name="LOREM" transform="translate(1215.154 4847.843)" fill="#363d57" font-size="5" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-9.185" y="0">LOREM</tspan></text>
+  </g>
+</svg>

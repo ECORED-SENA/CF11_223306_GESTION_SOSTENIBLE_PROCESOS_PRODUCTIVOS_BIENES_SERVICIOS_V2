@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="413.744" height="105.373" viewBox="0 0 413.744 105.373">
+  <g id="Grupo_988386" data-name="Grupo 988386" transform="translate(-901.55 -4549.86)">
+    <g id="Grupo_988383" data-name="Grupo 988383" transform="translate(913.73 4631.166)">
+      <path id="Trazado_666115" data-name="Trazado 666115" d="M1301.443,4604.009H911.137a1.574,1.574,0,0,1,0-3.148h390.307a1.574,1.574,0,1,1,0,3.148Z" transform="translate(-909.563 -4600.86)" fill="#bdbdbd"/>
+    </g>
+    <path id="Trazado_666116" data-name="Trazado 666116" d="M923.586,4605.387a9.5,9.5,0,1,1-9.5-9.5A9.5,9.5,0,0,1,923.586,4605.387Z" transform="translate(1.215 27.353)" fill="#367c58"/>
+    <path id="Trazado_666117" data-name="Trazado 666117" d="M915.366,4603.155a3.508,3.508,0,1,1-3.509-3.509A3.509,3.509,0,0,1,915.366,4603.155Z" transform="translate(3.447 29.585)" fill="#fafafa"/>
+    <circle id="Elipse_7832" data-name="Elipse 7832" cx="9.496" cy="9.496" r="9.496" transform="translate(1296.302 4623.244)" fill="#367c58"/>
+    <circle id="Elipse_7833" data-name="Elipse 7833" cx="3.508" cy="3.508" r="3.508" transform="translate(1302.289 4629.231)" fill="#fafafa"/>
+    <path id="Trazado_666118" data-name="Trazado 666118" d="M1086.859,4605.387a9.5,9.5,0,1,1-9.5-9.5A9.5,9.5,0,0,1,1086.859,4605.387Z" transform="translate(98.239 27.353)" fill="#449c6e"/>
+    <path id="Trazado_666119" data-name="Trazado 666119" d="M1078.639,4603.155a3.508,3.508,0,1,1-3.508-3.509A3.508,3.508,0,0,1,1078.639,4603.155Z" transform="translate(100.471 29.585)" fill="#fafafa"/>
+    <circle id="Elipse_7834" data-name="Elipse 7834" cx="9.496" cy="9.496" r="9.496" transform="translate(1035.911 4623.244)" fill="#285d42"/>
+    <path id="Trazado_666120" data-name="Trazado 666120" d="M996.975,4603.155a3.509,3.509,0,1,1-3.509-3.509A3.51,3.51,0,0,1,996.975,4603.155Z" transform="translate(51.941 29.585)" fill="#fafafa"/>
+    <g id="Grupo_988384" data-name="Grupo 988384" transform="translate(902.55 4649.233)">
+      <text id="DATA_A" data-name="DATA A" transform="translate(9 5)" fill="#367c58" font-size="5" font-family="Montserrat-Regular, Montserrat"><tspan x="-9.44" y="0">DATA A</tspan></text>
+      <text id="DATA_B" data-name="DATA B" transform="translate(139.102 5)" fill="#367c58" font-size="5" font-family="Montserrat-Regular, Montserrat"><tspan x="-9.35" y="0">DATA B</tspan></text>
+      <text id="DATA_C" data-name="DATA C" transform="translate(269.205 5)" fill="#367c58" font-size="5" font-family="Montserrat-Regular, Montserrat"><tspan x="-9.425" y="0">DATA C</tspan></text>
+      <text id="DATA_D" data-name="DATA D" transform="translate(398.713 5)" fill="#367c58" font-size="5" font-family="Montserrat-Regular, Montserrat"><tspan x="-9.54" y="0">DATA D</tspan></text>
+    </g>
+    <g id="Grupo_988385" data-name="Grupo 988385" transform="translate(913.71 4549.86)">
+      <path id="Trazado_666121" data-name="Trazado 666121" d="M1303.23,4558.355a1.584,1.584,0,0,0-.108-.61l0-.007a42.173,42.173,0,0,0-.333-.518,1.537,1.537,0,0,0-.36-.255,1.473,1.473,0,0,0-.14-.1L1286.865,4550a1.595,1.595,0,0,0-1.3,2.913l11.946,5.318-129.641,50.947-126.153-39.1a1.585,1.585,0,0,0-.933,0l-130.1,39.261a1.594,1.594,0,1,0,.922,3.052l129.636-39.12,126.22,39.117a1.6,1.6,0,0,0,1.057-.04l130.08-51.119-5.282,11.866a1.593,1.593,0,0,0,.808,2.1,1.568,1.568,0,0,0,.646.137,1.588,1.588,0,0,0,1.457-.945l6.866-15.421v0A1.6,1.6,0,0,0,1303.23,4558.355Z" transform="translate(-909.55 -4549.861)" fill="#449c6e"/>
+    </g>
+  </g>
+</svg>

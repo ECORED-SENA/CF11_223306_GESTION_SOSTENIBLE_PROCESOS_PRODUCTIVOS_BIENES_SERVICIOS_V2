@@ -147,31 +147,97 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.2 Flujo de la cadena de valor y mapeo de actividades',
+      referencia:
+        'Rogle. (s.f). <i>Mapa de la cadena de valor. Flujo de información en el VSM I UPV</i>. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vKtC4KvPg8Y',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.4 Indicadores de gestión',
+      referencia:
+        'Felizzola, H Luna, C. (2014). Lean Six Sigma en pequeñas y medianas empresas: un enfoque metodológico. <i>Ingeniare. Revista chilena de ingeniería, 22(2), 263-277</i>.',
+      tipo: 'Artículo',
+      link:
+        'https://scielo.conicyt.cl/scielo.php?pid=S0718-33052014000200012&script=sci_arttext&tlng=e',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Cuadros de control',
+      significado:
+        'planilla, matriz o formato disponible para el registro de la información.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Indicador de gestión',
+      significado:
+        'término o expresión cuantitativa o cualitativa de la conducta, constantes o propiedades de un proceso o procedimiento.',
+    },
+    {
+      termino: 'Información documentada',
+      significado:
+        'el uso de datos relevantes para desarrollar las actividades de una empresa.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'conglomerado de destrezas administrativas o de las directrices que una persona posee para ser capaz de direccionar las acciones que ejecuta un grupo humano.',
+    },
+    {
+      termino: 'Listas de chequeo',
+      significado:
+        'plantillas de inspección que con corresponsabilidad se diseñan para reconocer la veracidad de actividades estandarizadas.',
+    },
+    {
+      termino: 'Manual de calidad',
+      significado:
+        'información digital del sistema de gestión de la calidad de las corporaciones.',
+    },
+    {
+      termino: 'Plan de mejora',
+      significado:
+        'esta actividad está centrada en realizar una propuesta para mejorar el método actual de producción.',
+    },
+    {
+      termino: 'Sistema de gestión de calidad',
+      significado:
+        'es el registro documentado de todos y cada uno de los pasos de la logística estructurada de la compañía.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ararat, A. (2010). <i>Estudio de Métodos y Tiempos en el Proceso Productivo de la Línea de Camisas Interior de MAKILA CTA., para mejorar la productividad de la empresa</i>. Santiago de Cali: Universidad Autónoma de Occidente. ',
+      link: 'https://red.uao.edu.co/handle/10614/1175',
+    },
+    {
+      referencia:
+        'Hernández, J. & Vizán, A. (2013). <i>Lean Manufacturing</i>. EOI Escuela de organización industrial. ',
+      link:
+        'https://www.eoi.es/es/savia/publicaciones/20730/lean-manufacturing-concepto-tecnicas-e-implantacion',
+    },
+    {
+      referencia:
+        'Proaño, D. (2017). <i>Metodología para elaborar un plan de mejora continua</i>. 3C Empresa: investigación y pensamiento crítico, Edición Especial, 50-56. ',
+      link: 'http://dx.doi.org/10.17993/3cemp.2017.especial.50-56',
+    },
+    {
+      referencia:
+        'Ramos, D. (2018). <i>Las siete herramientas estadísticas de calidad</i>. Artículo de Qualiex- Blog de Calidad. ',
+      link: 'https://blogdelacalidad.com/las-siete-herramientas-de-la-calidad/',
+    },
+    {
+      referencia: 'Ruiz, D. (2014). Manual de estadística. ',
+      link: 'https://www.eumed.net/cursecon/libreria/drm/24.pdf',
+    },
+    {
+      referencia:
+        'Salazar, P,Del Castillo, G.  (2018) Fundamentos básicos de estadística. Primera Edición. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Sipper, D y Bulfín, R. Jr. Planeación y control de la producción. ',
       link: '',
     },
   ],
@@ -195,9 +261,44 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Víctor Manuel Isaza Córdoba',
+          cargo: 'Experto temático',
+          centro:
+            'Centro del Diseño y la Metrología - Regional Distrito capital',
+        },
+        {
+          nombre: 'Luz Aída Quintero Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jeimy Lorena Romero Perilla',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro:
+            'Centro del Diseño y la Metrología - Regional Distrito capital',
+        },
+        {
+          nombre: 'Sandra patricia Hoyos Sepúveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
