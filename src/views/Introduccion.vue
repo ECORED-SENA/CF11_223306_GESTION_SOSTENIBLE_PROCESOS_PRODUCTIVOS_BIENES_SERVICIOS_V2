@@ -19,8 +19,11 @@
               p.mb-0 Se da la bienvenida a este componente formativo denominado “La cadena de suministros y la planificación de la producción.”, el cual inicia con el siguiente video en el que se presenta la importancia de la compra y venta de bienes y/o servicios.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8Dqy_dNczyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. La cadena de suministros y la planificación de la producción
+
+
+
 </template>
 
 <script>

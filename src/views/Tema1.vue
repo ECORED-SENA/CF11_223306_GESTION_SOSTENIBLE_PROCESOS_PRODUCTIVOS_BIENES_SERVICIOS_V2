@@ -106,20 +106,22 @@
             .col.mb-4.mb-lg-0
               p.mb-0 Manejo total de la cadena. La empresa integra el suministro de materiales e insumos, inclusive la construcción de infraestructura tecnológica y mecánica para su época.
             .col-auto
-              figure
-                img(src='@/assets/curso/tema1/img4.svg', style="width: 140px" ,alt='')
+              img(src='@/assets/curso/tema1/img4.svg', style="width: 140px" ,alt='')
+          .row.align-items-center(titulo="Estrategia de integración vertical")
+            .col.mb-4.mb-lg-0
+              p.mb-0 Constituye una filosofía que incorpora diferentes áreas para garantizar el suministro de materias primas e insumos; con dicha incorporación, se realiza un favorecimiento para solucionar necesidades sentidas, afianzar la competitividad de bienes y servicios, elevar la calidad y aumentar competitividad.
+            .col-auto
+              img(src='@/assets/curso/tema1/img14.svg', style="width: 110px" ,alt='')
           .row.align-items-center(titulo="Descentralización")
             .col.mb-4.mb-lg-0
               p.mb-0 La no centralización de sistemas de costeo de producción. Esta se establece con la creación en cada área de centros de costos, especificando con mucha mayor precisión todos y cada uno de los valores que intervienen en el precio de venta del producto o la prestación del servicio.
             .col-auto
-              figure
-                img(src='@/assets/curso/tema1/img5.svg', style="width: 140px" ,alt='')
+              img(src='@/assets/curso/tema1/img5.svg', style="width: 140px" ,alt='')
           .row.align-items-center(titulo="Estructurar el entorno")
             .col.mb-4.mb-lg-0
               p.mb-0 Estructurar el entorno de la cadena de suministros con el fin de que la parte logística tenga una capacidad de respuesta de carácter eficiente, eficaz y de flexibilidad; por lo tanto, el cumplimiento exacto del esquema de requerimientos específicos de cada interés del cliente, se refleja en suministrar productos con alto contenido de sus exigencias.
             .col-auto
-              figure
-                img(src='@/assets/curso/tema1/img6.svg', style="width: 140px" ,alt='')
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 140px" ,alt='')
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img4.png', style="width: auto" ,alt='').m-auto
@@ -644,6 +646,8 @@
           .row(numero="4" titulo="Transferencia del riesgo")
             .col-12
               p Sucede cuando el riesgo se transmite a otra área de la organización o a alguna empresa para que sea resuelto y manejado.
+    
+    
     Separador
     #t_1_4
     .titulo-segundo.color-acento-contenido
@@ -657,65 +661,46 @@
     .row.mb-4
       .col-auto
         h3.txt-c1.mb-0 #[b Criterios para el control de inventarios]
+    
     p.mb-5 A continuación se hace una descripción detallada de los criterios que se deben tener en cuenta en el momento de realizar el proceso de inventarios.
-    .row.justify-content-center
-      .col-8.col-md-5.col-lg.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img56.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Estudio de mercado]
-              p.text-center Reconocimiento de las marcas que están presentes en el medio relacionadas con el proceso de producción organizacional.
-      .col-8.col-md-5.col-lg.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img57.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Denominación]
-              p.text-center Identificación y concepto adecuado de las denominaciones del insumo que se requiere.
-      .col-8.col-md-5.col-lg.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img58.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Ficha técnica]
-              p.text-center Condiciona el cumplimiento de las características de la materia prima a la disposición por parte del proveedor de una ficha técnica completa.
-      .col-8.col-md-5.col-lg.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img59.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Sostenibilidad]
-              p.text-center Especificación completa e integrar a la ficha técnica sobre el uso sostenible de los artículos que me suministran.
-    .row.justify-content-center.mb-5
-      .col-8.col-md-5.col-lg-3.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img60.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Características]
-              p.text-center Disposición completa de contextos sustentables y amigables, condiciones físicas o químicas del bien.
-      .col-8.col-md-5.col-lg-3.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img61.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Condiciones fisicoquímicas]
-              p.text-center Establecer las condiciones fisicoquímicas de los elementos empleados en el acabado y presentación del producto.
-      .col-8.col-md-5.col-lg-3.m-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img62.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b Empaque]
-              p.text-center Discriminación clara sobre el empaque y embalaje del bien o insumo, sus dimensiones y aclaración si son sujeto de inspecciones de calidad en su recepción.
+    
+    .row.justify-content-center.mb-4
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico1.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Estudio de mercado]
+          p.text-center Reconocimiento de las marcas que están presentes en el medio relacionadas con el proceso de producción organizacional.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico2.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Denominación]
+          p.text-center Identificación y concepto adecuado de las denominaciones del insumo que se requiere.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico3.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Ficha técnica]
+          p.text-center Condiciona el cumplimiento de las características de la materia prima a la disposición por parte del proveedor de una ficha técnica completa.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico4.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Sostenibilidad]
+          p.text-center Especificación completa e integrar a la ficha técnica sobre el uso sostenible de los artículos que me suministran.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico5.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Características]
+          p.text-center Disposición completa de contextos sustentables y amigables, condiciones físicas o químicas del bien.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico6.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Condiciones fisicoquímicas]
+          p.text-center Establecer las condiciones fisicoquímicas de los elementos empleados en el acabado y presentación del producto.
+      .col-9.col-md-6.col-lg-3.mb-3
+        .tarjeta.color-acento-contenido1.p-4.h-100
+          img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico7.svg', alt='', style="max-width: 100px;")
+          p.text-center #[b Empaque]
+          p.text-center Discriminación clara sobre el empaque y embalaje del bien o insumo, sus dimensiones y aclaración si son sujeto de inspecciones de calidad en su recepción.
+    
     p.mb-5 Por otro lado, para realizar dicho control es importante comenzar a dar respuesta a los siguientes interrogantes:
     .row.mb-5
       .col-lg.m-2

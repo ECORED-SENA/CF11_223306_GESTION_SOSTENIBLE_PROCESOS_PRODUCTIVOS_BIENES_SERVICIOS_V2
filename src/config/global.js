@@ -306,19 +306,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Juan Daniel Polanco',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrollador Full-stack',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -326,14 +347,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

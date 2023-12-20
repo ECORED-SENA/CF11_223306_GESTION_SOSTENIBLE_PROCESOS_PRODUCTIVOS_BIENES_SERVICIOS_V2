@@ -24,6 +24,7 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema2/img2.png', style="width: auto" ,alt='').m-auto
+    
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
@@ -31,7 +32,10 @@
     p.mb-5 Es innegable que la planificación permite elevar la productividad, a continuación se pueden conocer sus principales ventajas:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/bUOHGZMo1Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Ventajas de la planificación
+
+
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
