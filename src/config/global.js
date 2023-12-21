@@ -131,7 +131,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/CF11_223306_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -233,12 +233,10 @@ export default {
     {
       referencia:
         'Salazar, P,Del Castillo, G.  (2018) Fundamentos básicos de estadística. Primera Edición. ',
-      link: '',
     },
     {
       referencia:
         'Sipper, D y Bulfín, R. Jr. Planeación y control de la producción. ',
-      link: '',
     },
   ],
   creditos: [
@@ -251,9 +249,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Línea de Producción',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -290,13 +289,7 @@ export default {
         },
         {
           nombre: 'Miroslava González Hernández',
-          cargo: 'Diseñadora Instruccional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo Desarrollo Curricular',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -307,13 +300,13 @@ export default {
       autores: [
         {
           nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y Productor Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
