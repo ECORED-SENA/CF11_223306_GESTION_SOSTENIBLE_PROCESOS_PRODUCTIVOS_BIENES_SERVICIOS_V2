@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.tema1.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Cadenas de abastecimiento, de aprovisionamiento, o de suministros
@@ -11,7 +11,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Esta es quizás la mejor contribución que se ha hecho para la mejora de los procesos logísticos dentro de las organizaciones pues permite tener el control de los diferentes bienes y servicios, establecer procesos de negociación, tener manejo frente al almacenamiento de materias primas e insumos de productos acabados y piezas semielaboradas, soportados por información técnica documentada, el uso de canales de distribución adecuados, etc. La implementación de  dichas cadenas permite que se entregue al cliente un producto o se le ofrezca un servicio con las mejores condiciones y que este satisfaga sus expectativas.
+        p.mb-0 Esta es quizás la mejor contribución que se ha hecho para la mejora de los procesos logísticos dentro de las organizaciones, pues permite tener el control de los diferentes bienes y servicios, establecer procesos de negociación, tener manejo frente al almacenamiento de materias primas e insumos de productos acabados y piezas semielaboradas, soportados por información técnica documentada, el uso de canales de distribución adecuados, etc. La implementación de  dichas cadenas permite que se entregue al cliente un producto o se le ofrezca un servicio con las mejores condiciones y que este satisfaga sus expectativas.
     .row.align-items-end
       .col-lg-7.mb-4.mb-lg-0
         .row.mb-3
@@ -19,7 +19,7 @@
             h3.txt-c1.mb-0 #[b ¿Qué es una cadena de suministros o abastecimiento?]
         p La definimos como la filosofía conceptual que realiza integración, dotación y comercialización de todos los componentes tecnológicos a centros de almacenamiento, distribuidores y detallistas, con el objeto de que los bienes sean manufacturados y mercadeados en las cantidades adecuadas, en los sitios y en los momentos correctos, con renta para todas las entidades involucradas y con prácticas amigables en los niveles de servicio requeridos para satisfacer las condiciones del cliente final.
         .cajon.color-primario.p-4
-          p.mb-0 Toda empresa está inmersa, de alguna forma, en alguna cadena de suministro, ya sea como proveedor, como cliente, pues abriga las necesidades de los canales de distribución de determinado producto (envío, carga operatividad, entre otros factores.)
+          p.mb-0 Toda empresa está inmersa, de alguna forma, en alguna cadena de suministro, ya sea como proveedor, como cliente, pues abriga las necesidades de los canales de distribución de determinado producto (envío, carga, operatividad, entre otros factores).
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: auto" ,alt='').m-auto
@@ -32,7 +32,7 @@
         figure
           img(src='@/assets/curso/tema1/img3.svg', style="width: auto" ,alt='').m-auto
       .col
-        p.mb-0 Estos componentes deben ser parte activa de una organización, pues permiten la administración de muchos procesos, tanto internos como externos, entre los que se encuentran el almacenamiento, traslado, acopio de los productos, los cuales se sustentan a través de documentos oficiales, que son la base para la toma de decisiones asertivas, que facilitan el cumplimento de los requerimientos del consumidor.
+        p.mb-0 Estos componentes deben ser parte activa de una organización, pues permiten la administración de muchos procesos, tanto internos como externos, entre los que se encuentran el almacenamiento, traslado, acopio de los productos, los cuales se sustentan a través de documentos oficiales, que son la base para la toma de decisiones asertivas, que facilitan el cumplimiento de los requerimientos del consumidor.
     p.mb-5 A continuación, se describen los principales componentes de la cadena de suministros.
     .tarjeta.tarjeta--azul.mb-5
       .p-4.p-md-5
@@ -187,9 +187,9 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.mb-1 #[b Ítems que han marcado la definición del concepto de cadena de suministros]
-                p.text-small En las décadas posteriores el concepto de cadena de suministros ha tomado más fuerza. En el siguiente anexo se identifican los principales ítems que han fortalecido su definición. 
+                p En las décadas posteriores el concepto de cadena de suministros ha tomado más fuerza. En el siguiente anexo se identifican los principales ítems que han fortalecido su definición. 
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Items-que-han-marcado-definicion-concepto-cadena-suministros.pdf')" target="_blank")
                   span Ver documento
                   i.fas.fa-file-download
     Separador
@@ -201,7 +201,7 @@
         p Las entidades y corporaciones de amplio recorrido soportan las estructuras jerárquicas con base en departamentos que separan sus funciones para mayor productividad, áreas de sistema de gestión de la calidad, ingeniería, economía, finanzas, gerencia, entre otras, las cuales implementan sistemas estratégicos de acción autónoma, sistemas de incentivos, filosofías colaborativas de integración con proveedores, acciones, que de alguna manera, generan medidas de choque integrales para obtener ventajas competitivas.
         p La aplicación administrativa de la cadena de suministro radica en la planificación, la organización y la vigilancia eficaz y productiva de los flujos en y entre los mecanismos de la cadena, es una malla compleja y dinámica de subestructuras, corporaciones y personas con objetivos diferentes pero alineados con la planeación estratégica.
         .cajon.color-primario.p-4
-          p.mb-0 En la aplicación técnica de una cadena de suministros uno de los puntos de mayor beneficio para los sectores productivos se identifica, entre otras cosas, con la difícil tarea de predecir la demanda para la compra acertada de materiales e insumos, pues las condiciones de comportamiento de los mercados globales y regionales es incierta precisamente por la gran variedad de productos y sus mínimos ciclos de vida.
+          p.mb-0 En la aplicación técnica de una cadena de suministros, uno de los puntos de mayor beneficio para los sectores productivos se identifica, entre otras cosas, con la difícil tarea de predecir la demanda para la compra acertada de materiales e insumos, pues las condiciones de comportamiento de los mercados globales y regionales es incierta precisamente por la gran variedad de productos y sus mínimos ciclos de vida.
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img6.png', style="width: auto" ,alt='').m-auto
@@ -351,7 +351,7 @@
         figure
           img(src='@/assets/curso/tema1/img31.svg', style="width: auto" ,alt='').m-auto
       .col
-        p.mb-0 Construir un esquema de adquisición de materias primas e insumos, nos condiciona a certificar la continuidad de las operaciones con el cumplimiento de los ciclos pactados en la planificación. Esto demanda la toma de decisiones en cumplimiento de la diversidad de los insumos y materias primas almacenadas y del punto de equilibrio y la existencia que hay que a mantener en stock para cuidar que el proceso de manufactura no sufra estancamiento; cada producto requiere una atención especial para no entorpecer su comercialización.
+        p.mb-0 Construir un esquema de adquisición de materias primas e insumos, nos condiciona a certificar la continuidad de las operaciones con el cumplimiento de los ciclos pactados en la planificación. Esto demanda la toma de decisiones en cumplimiento de la diversidad de los insumos y materias primas almacenadas y del punto de equilibrio y la existencia que hay que a mantener en #[em stock] para cuidar que el proceso de manufactura no sufra estancamiento; cada producto requiere una atención especial para no entorpecer su comercialización.
     .row.align-items-center.mb-4
       .col-lg-10
         .row
@@ -360,7 +360,7 @@
           .col-12.bg-c7
             .p-4
               p.text-white #[b Pero, ¿Qué son las materias primas?]
-              p.text-white Componente de un bien a manufacturar y que realmente es relevante para el ensamble del mismo, sin él no puede se puede sustentar la cantidad para la demanda de cada artículo que se almacena en centros de distribución y que la empresa requiere para sus operaciones.
+              p.text-white Componente de un bien a manufacturar y que realmente es relevante para el ensamble del mismo, sin la materia prima no se puede sustentar la cantidad para la demanda de cada artículo que se almacena en centros de distribución y que la empresa requiere para sus operaciones.
           figure.fig-p2
             img(src='@/assets/curso/tema1/img33.svg', style="width: auto" ,alt='').m-auto
       .col-lg-2
@@ -399,7 +399,7 @@
               .row.mb-3
                 .col-6
                   img(src='@/assets/curso/tema1/img39.svg' alt='AvatarTop')
-              p Establecer parámetros de Capacidad instalada operativa.
+              p Establecer parámetros de capacidad instalada operativa.
             .tarjeta.color-acento-contenido1.p-4
               .row.mb-3
                 .col-6
@@ -430,7 +430,7 @@
             .p-4
               figure.mb-3
                 img(src='@/assets/curso/tema1/img31.svg', style="width: auto" ,alt='')
-              p.mb-0 Cuando las entidades corporativas dan comienzo a nuevos emprendimientos y proyectos empresariales, ponerlos en funcionamiento debe desplegar una completa cantidad de estrategias para suplir elementos que no pongan en aprietos su funcionamiento. Se deben tener en cuenta diseños, colores y estilos, inicios de temporada, nuevas tendencias, entre otros, estos elementos condicionan la selección precisa de insumos y materias primas.
+              p.mb-0 Cuando las entidades corporativas dan comienzo a nuevos emprendimientos y proyectos empresariales, ponerlos en funcionamiento debe desplegar una completa cantidad de estrategias para suplir elementos que no pongan en aprietos su funcionamiento. Se deben tener en cuenta diseños, colores y estilos, inicios de temporada, nuevas tendencias, entre otros; estos elementos condicionan la selección precisa de insumos y materias primas.
     p.mb-5 Al analizar de manera detenida el procedimiento de selección y compra de insumos, los departamentos de compras tienen presente otros condicionamientos:
     .row.bg-c3.mb-5
       .col-12
@@ -501,8 +501,8 @@
                         p.mb-0 #[b 8. Efectividad]
                         p Contribuye en disminución de errores de despacho de insumos y materiales.
                         p.mb-0 #[b 9. Rapidez]
-                        p Facilita el desarrollo de tareas y los procesos administrativos, la información se encuentra consignada en un solo lugar y por ende se adquiere con mayor rapidez y facilidad.
-    p.mb-5 El diseño de fichas técnicas para la iIdentificación de cada material existente permite la conformación de una base de datos que facilita su clasificación y ordenamiento. La repartición de los materiales, en conformidad con la planificación de procesos logísticos, justifican la utilización de un esquema de símbolos, códigos, colores, imágenes, patrones y elaboración de matrices de tolerancia y equivalencia que facilitan acciones de identificación, clasificación y ordenamiento de forma precisa ágil y fácil.
+                        p Facilita el desarrollo de tareas y los procesos administrativos, la información se encuentra consignada en un solo lugar y, por ende, se adquiere con mayor rapidez y facilidad.
+    p.mb-5 El diseño de fichas técnicas para la identificación de cada material existente permite la conformación de una base de datos que facilita su clasificación y ordenamiento. La repartición de los materiales, en conformidad con la planificación de procesos logísticos, justifican la utilización de un esquema de símbolos, códigos, colores, imágenes, patrones y elaboración de matrices de tolerancia y equivalencia que facilitan acciones de identificación, clasificación y ordenamiento de forma precisa ágil y fácil.
     .row.mb-4
       .col-auto
         h3.txt-c1.mb-0 #[b Gestión de compras sostenibles]
@@ -511,7 +511,7 @@
         figure
           img(src='@/assets/curso/tema1/img46.svg', style="width: auto" ,alt='').m-auto
       .col
-        p.mb-0 La misión que implica la normatividad de compra sostenible, como estrategia de desarrollo sustentable amigable de buenas prácticas de compra, es un reto para todas las empresas, pues esta además de disminuir costos y el uso excesivo de materiales e insumos, disminuye los impactos ambientales que pueden afectar las generaciones futuras; además, es un compromiso con la sociedad y el medio ambiente. A continuación la definición más precisa de compra sostenible.
+        p.mb-0 La misión que implica la normatividad de compra sostenible, como estrategia de desarrollo sustentable amigable de buenas prácticas de compra, es un reto para todas las empresas, pues esta además de disminuir costos y el uso excesivo de materiales e insumos, disminuye los impactos ambientales que pueden afectar las generaciones futuras; además, es un compromiso con la sociedad y el medio ambiente. A continuación, la definición más precisa de compra sostenible.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .row
@@ -546,7 +546,7 @@
           .row.m-1.align-items-center
             .col-lg-4.mb-4.mb-lg-0
               p #[b Políticas: proveedores sostenibles]
-              p En el Convenio de Ámsterdam del año 1997, se registra que la integración del factor medioambiental en todas las políticas corporativas es condición relevante para lograr un desarrollo sustentable y sostenible. A partir de esa década surgen las primeras subestructuras de compra sustentable y limpia, y se echan a rodar, proyectos de convenio público verde a nivel regional, nacional, e internacional.
+              p En el Convenio de Ámsterdam del año 1997, se registra que la integración del factor medioambiental en todas las políticas corporativas es condición relevante para lograr un desarrollo sustentable y sostenible. A partir de esa década surgen las primeras subestructuras de compra sustentable y limpia, y se echan a rodar proyectos de convenio público verde a nivel regional, nacional e internacional.
             .col-lg-8
               figure
                 img(src='@/assets/curso/tema1/img11.png', alt='')
@@ -636,7 +636,7 @@
           .row(numero="1" titulo="Aceptación del riesgo")
             .col-12
               p Se identifica y se reconoce el riesgo, pero, se determina que estos no afectan el desarrollo de objetivos empresariales y que pueden ser aceptados.
-              p Es necesario aclarar que si es importante desarrollar estrategias para convertir dichos riesgos en procesos adaptables dentro de las tareas que se llevan dentro de la organización.
+              p Es necesario aclarar que sí es importante desarrollar estrategias para convertir dichos riesgos en procesos adaptables dentro de las tareas que se llevan dentro de la organización.
           .row(numero="2" titulo="Evitación del riesgo")
             .col-12
               p La forma de evitar el riesgo es impidiendo que se lleve a cabo la actividad que lo genera, por ende, se debe buscar una estrategia o actividad que implique un riesgo menor.
@@ -669,7 +669,7 @@
         .tarjeta.color-acento-contenido1.p-4.h-100
           img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico1.svg', alt='', style="max-width: 100px;")
           p.text-center #[b Estudio de mercado]
-          p.text-center Reconocimiento de las marcas que están presentes en el medio relacionadas con el proceso de producción organizacional.
+          p.text-center Reconocimiento de las marcas que están presentes en el medio, relacionadas con el proceso de producción organizacional.
       .col-9.col-md-6.col-lg-3.mb-3
         .tarjeta.color-acento-contenido1.p-4.h-100
           img.m-auto.mb-4(src='@/assets/curso/tema1/tarj-ico2.svg', alt='', style="max-width: 100px;")
@@ -734,7 +734,7 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
-                  | Procurar por la ordenación sistémica del stock, es decir, catalogar todas las existencias con base en parámetros preestablecidos.
+                  span.mb-0 Procurar por la ordenación sistémica del #[em stock], es decir, catalogar todas las existencias con base en parámetros preestablecidos.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | En correlación y de acuerdo a sus condiciones comunes de utilización, naturaleza y forma.
@@ -743,7 +743,7 @@
                   | Codificar a partir de la clasificación las tarjetas o listados de descripción.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
-                  | Examinar las particularidades significativas y seleccionar una para iniciar la clasificación y conformación de las clases, que contengan características similares.
+                  | Examinar las particularidades significativas y seleccionar una para iniciar la clasificación y conformación de las clases que contengan características similares.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | Los materiales de baja rotación se bajan a cero en los inventarios y solo se trabajan bajo pedido.
@@ -882,7 +882,7 @@
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
-                  p.mb-0 Estructura de #[i stock] de seguridad o reserva.
+                  p.mb-0 Estructura de #[em stock] de seguridad o reserva.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
@@ -890,7 +890,7 @@
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
-                  p.mb-0 Estructura de inventario sobrante o sobre #[i stock], insumos que dejan de emplearse.
+                  p.mb-0 Estructura de inventario sobrante o sobre #[em stock], insumos que dejan de emplearse.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
@@ -928,7 +928,7 @@
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
-                  p.mb-0 #[i Stock] de materias primas relevantes para la construcción del producto.
+                  p.mb-0 #[em Stock] de materias primas relevantes para la construcción del producto.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | 
@@ -983,10 +983,10 @@
       h2 1.6 Canales de distribución del producto y/o servicio
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        p Es el procedimiento que permite la provisión, movimiento y acopio del stock de insumos y productos semielaborados o terminados en el comercio nacional o internacional a partir del establecimiento de unas rutas definidas, las cuales pueden manejarse por vía aérea, férrea, acuática, o terrestre.
+        p Es el procedimiento que permite la provisión, movimiento y acopio del #[em stock] de insumos y productos semielaborados o terminados en el comercio nacional o internacional a partir del establecimiento de unas rutas definidas, las cuales pueden manejarse por vía aérea, férrea, acuática, o terrestre.
         p Cada línea de abastecimiento está conformada por una serie de operadores logísticos o mediadores que permiten el transporte de los bienes de manufactura desde el centro de distribución de la compañía hasta los lugares de mercadeo especializados.
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Hay que tener en cuenta que el montaje de infraestructuras logísticas y de traslado permite el envío de mercancía de un lugar a otro, empleando una ruta de transporte, a partir de una normatividad, definida y empelando información documentada, lo que pone de manifiesto el conocimiento técnico y especifico de embarque marítimo o carta de porte terrestre, entre otros.
+          p.mb-0 Hay que tener en cuenta que el montaje de infraestructuras logísticas y de traslado permite el envío de mercancía de un lugar a otro, empleando una ruta de transporte, a partir de una normatividad, definida y empleando información documentada, lo que pone de manifiesto el conocimiento técnico y especifico de embarque marítimo o carta de porte terrestre, entre otros.
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img21.png', style="width: auto" ,alt='').m-auto
@@ -1071,7 +1071,7 @@
             li.d-flex
               i.fas.fa-check(style="color: #583CB6")
               | 
-              p.mb-0 Más ágil la renovación de #[i stock].
+              p.mb-0 Más ágil la renovación de #[em stock].
             li.d-flex
               i.fas.fa-check(style="color: #583CB6")
               | Espacio físico por uso del factor de estiba sin restricciones.
@@ -1086,7 +1086,7 @@
           figure
             img(src='@/assets/curso/tema1/img26.png', style="width: auto" ,alt='').m-auto
         .col-lg-7
-          p En los traslados transoceánicos, el transporte marítimo no tiene competencia. El flete es el mayor componente de coste dentro de la cadena logística de exportación (alrededor del 70%), y sus variaciones vienen dadas por la oferta disponible de flota que existe, la capacidad de conseguir los retornos, las variaciones en la demanda. 
+          p En los traslados transoceánicos, el transporte marítimo no tiene competencia. El flete es el mayor componente de coste dentro de la cadena logística de exportación (alrededor del 70 %), y sus variaciones vienen dadas por la oferta disponible de flota que existe, la capacidad de conseguir los retornos, las variaciones en la demanda. 
           p Ventajas de transporte marítimo.
           ul.lista-ul.mb-0
             li.d-flex

@@ -20,7 +20,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4
-                p El hecho de equipar las empresas con tecnología emergente y de punta y la renovación tecnológica de equipos, guías y accesorios, más el conocimiento polivalente de la mano de obra directa, arroja como resultado que la capacidad de respuesta de los procesos productivos sea mucho más rápida y eficiente. La sinergia que se busca en los equipos de trabajo, utilizando un preciso balanceo de líneas de producción contribuye al uso eficiente del tiempo para una respuesta rápida a los proveedores del servicio.
+                p El hecho de equipar las empresas con tecnología emergente y de punta y la renovación tecnológica de equipos, guías y accesorios, más el conocimiento polivalente de la mano de obra directa, arroja como resultado que la capacidad de respuesta de los procesos productivos sea mucho más rápida y eficiente. La sinergia que se busca en los equipos de trabajo, utilizando un preciso balanceo de líneas de producción, contribuye al uso eficiente del tiempo para una respuesta rápida a los proveedores del servicio.
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema2/img2.png', style="width: auto" ,alt='').m-auto
@@ -123,7 +123,7 @@
                   | El control efectivo de las fechas de entrega a tiempo es la premisa.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
-                  | El incremento de las confianza interna y externa hacia los equipos de trabajo.
+                  | El incremento de la confianza interna y externa hacia los equipos de trabajo.
                 li.d-flex
                   i.fas.fa-check(style="color: #583CB6")
                   | Aumentar la calidad en el producto.
@@ -158,7 +158,7 @@
                 .tarjeta.color-acento-botones.p-3(x="96%" y="19%" numero="+")
                   p.mb-0 Producir por órdenes específicas de los clientes en vez de producir basado en pronósticos de ventas a largo plazo, esto garantiza no desperdiciar tiempo o productos de los cuales se corre el riesgo de ser desechados.
                 .tarjeta.color-acento-botones.p-3(x="96%" y="62%" numero="+")
-                  p.mb-0 Procura que el proceso no genera inconformidades, la cadena de valor trabaja en pro de la satisfacción de requerimientos y necesidades reales; por ende, se trabaja desde una planeación precisa que evite generar malestares durante la producción y distribución de los productos.
+                  p.mb-0 Procura que el proceso no genere inconformidades, la cadena de valor trabaja en pro de la satisfacción de requerimientos y necesidades reales; por ende, se trabaja desde una planeación precisa que evite generar malestares durante la producción y distribución de los productos.
     .row.mb-4
       .col-auto
         h3.txt-c1.mb-0 #[b Componentes de una cadena de valor]
@@ -168,7 +168,7 @@
           img(src='@/assets/curso/tema2/img5.png', style="width: auto" ,alt='').m-auto
       .col
         .p-4
-          p En procesos logísticos de manufactura, se conceptualizar esta estrategia como el cumplimiento de todas las acciones importantes para facilitar la manufactura de un bien o un servicio empleando como canal:
+          p En procesos logísticos de manufactura, se conceptualiza esta estrategia como el cumplimiento de todas las acciones importantes para facilitar la manufactura de un bien o un servicio, empleando como canal:
           ul.lista-ul--separador
             li.d-flex
               i.fas.fa-check-circle(style="color: #583CB6")
@@ -204,7 +204,7 @@
               li.d-flex
                 i.fas.fa-check-circle(style="color: #583CB6")
                 | 
-                p.mb-0 #[b Subestructuras de componentes de marketing]: operaciones logísticas de publicidad.
+                p.mb-0 #[b Subestructuras de componentes de #[em marketing]]: operaciones logísticas de publicidad.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #583CB6")
                 | 
@@ -241,6 +241,7 @@
         .px-5.py-4
           .row.align-items-center
             .col-lg-8.mb-4.mb-lg-0
+              p Una cadena logística estructurada brinda beneficios como:
               .row
                 .col-lg.m-2
                   .row.bg-c11.align-items-center
@@ -329,7 +330,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img11.svg', style="width: auto" ,alt='').m-auto
                 .col
-                  p.mb-0 Inventarios producidos antes que el Pedido.
+                  p.mb-0 Inventarios producidos antes que el pedido.
             .col-lg.m-2
               .row.bg-c11.align-items-center
                 .col-auto.px-0
@@ -345,14 +346,14 @@
                   figure
                     img(src='@/assets/curso/tema2/img13.svg', style="width: auto" ,alt='').m-auto
                 .col
-                  p.mb-0 Desperdicio de inventarios, acumular y manufacturar unidades no contempladas en el pedido; aparece cuando el tiempo critico de producción es superior a los de la demanda.
+                  p.mb-0 Desperdicio de inventarios, acumular y manufacturar unidades no contempladas en el pedido; aparece cuando el tiempo crítico de producción es superior a los de la demanda.
             .col-lg.m-2
               .row.bg-c11.align-items-center
                 .col-auto.px-0
                   figure
                     img(src='@/assets/curso/tema2/img14.svg', style="width: auto" ,alt='').m-auto
                 .col
-                  p.mb-0 Mala ubicación de máquina y herramientas localización de Insumos y herramientas en espacios no permitidos.
+                  p.mb-0 Mala ubicación de máquina y herramientas localización de insumos y herramientas en espacios no permitidos.
           .row
             .col-lg.m-2
               .row.bg-c11.align-items-center
@@ -412,7 +413,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img22.svg', style="width: auto" ,alt='').m-auto
                 .col
-                  p.mb-0 La falta de balanceo y sincronización produce tiempo ocioso en productos, equipos, Y/o mano de obra, se ven algunos colaboradores más ocupados que otros, productos con tiempos estacionarios altos.
+                  p.mb-0 La falta de balanceo y sincronización produce tiempo ocioso en productos, equipos, y/o mano de obra, se ven algunos colaboradores más ocupados que otros, productos con tiempos estacionarios altos.
     .row.mb-4
       .col-auto
         h3.txt-c1.mb-0 #[b Conceptos generales del control]
